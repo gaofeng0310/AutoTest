@@ -87,7 +87,7 @@
                 AND isDelete=#{isDelete}
             </if>
         </trim>
-        And id = #{userId}
+        And id = #{userId};
     </select>
 
 

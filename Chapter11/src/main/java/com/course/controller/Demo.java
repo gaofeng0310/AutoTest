@@ -38,10 +38,10 @@ public class Demo {
        return  template.update("updateUser",user);
 
     }
-
-    @RequestMapping(value = "/deleteUser",method = RequestMethod.GET)
-    public int delUser(@RequestParam int id){
-        return template.delete("deleteUser",id);
-    }
+//
+//    @RequestMapping(value = "/deleteUser",method = RequestMethod.GET)
+//    public int delUser(@RequestParam int id){
+//        return template.delete("deleteUser",id);
+//    }
 
 }
